@@ -2,3 +2,4 @@
 
 ### Pré-requisitos
 * [Instalação do Ruby] (https://rubyinstaller.org/downloads/)
+* [IDE vsCode] (https://code.visualstudio.com/download)
