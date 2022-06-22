@@ -1,9 +1,9 @@
 
-req 'capybara/cucumber'
-req 'capybara/rspec'
-req 'selenium-webdriver'
-req 'site_prism'
-req 'pry'
+require 'capybara/cucumber'
+require 'capybara/rspec'
+require 'selenium-webdriver'
+require 'site_prism'
+require 'pry'
 
 Capybara.configure do |config|
     config.default_driver = :selenium_chrome
