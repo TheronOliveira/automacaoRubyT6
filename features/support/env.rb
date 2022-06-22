@@ -12,6 +12,6 @@ CONFIG = YAML.load_file(File.dirname(__FILE__) + "environments/#{ENVIRONMENT}.ym
 
 Capybara.configure do |config|
     config.default_driver = :selenium_chrome
-    config.app_host: CONFIG['url_default']
+    config.app_host = CONFIG['url_default']
     config.default_max_time = 10
 end
