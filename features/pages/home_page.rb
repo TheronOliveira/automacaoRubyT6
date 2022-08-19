@@ -18,7 +18,7 @@ class Home < SitePrism::Page
         end
     end
 
-    def click_button
+    def click_link
         btn_Sobre_Nos.click()
     end
 end

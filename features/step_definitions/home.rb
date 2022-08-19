@@ -6,8 +6,8 @@ Entao('deve ser visualizada a mensagem {string}') do |text|
   home.validate_text(text)
 end
 
-Quando('clico no menu {string}') do |sobre_nos|
-  home.click_button
+Quando('clico no menu Sobre nós') do
+  home.click_link
 end
 
 Entao('devo visualizar a informação {string}') do |text|
